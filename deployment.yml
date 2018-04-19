@@ -15,7 +15,7 @@ spec:
         service: app
     spec:
       containers:
-      - image: verchol/demochat:{{CF_BRANCH}}
+      - image: metaphor5/demochat:{{CF_BRANCH}}
         name: app
         imagePullPolicy: Always
         ports:
